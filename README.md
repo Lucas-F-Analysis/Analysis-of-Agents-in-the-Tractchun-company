@@ -1,10 +1,10 @@
 # Analysis-of-Agents-in-the-Tractchun-company
 Resume: Tractchun is a company in the manufacturing industry with Information Technology (IT) agents who support Tickets. Information has been requested from the Human Resources department in order to perform a more in-depth analysis based on classifications of their Agents.
 
-# Agents Dashboard in Power BI
+# Summary
 
 ## 📊 Overview
-Summary: In this project, I carry out an exhaustive data analysis for the company Tractchun. Using the Power BI tool, using Power Query as the main data transformation tool. The situation involves the need to transform data from different support requests, called ‘Tickets’. These Tickets are associated to the Employees of the company that generated them, and to the IT Agents in charge of attending them.
+In this project, I carry out an exhaustive data analysis for the company Tractchun. Using the Power BI tool, using Power Query as the main data transformation tool. The situation involves the need to transform data from different support requests, called ‘Tickets’. These Tickets are associated to the Employees of the company that generated them, and to the IT Agents in charge of attending them.
 
 ## 🔍 Context
 Case: Tractchun is a company in the manufacturing industry that has Information Technology (IT) agents who provide ticketing support for all aspects of their office technology (systems, hardware, software, etc.).
@@ -42,16 +42,51 @@ I used different data transformation techniques in Power Query to ensure the int
 
 In addition, I used DAX language to create key metrics (KPIs) such as average satisfaction, tickets handled per agent, percentage of positive tickets (either ‘Excellent’ or ‘Very Good’) and average days to resolution.
 
+2) Data Modelling
+After the transformation, I performed relational modelling of the tables, setting up key relationships to ensure the model was ready for analysis in Power BI. This included setting up relationships between Employees, IT Agents, Resolution Days, Calendar and Tickets. This resulted in a snowflake model.
 
+3) Data Visualisation
+To interpret the data, I created a variety of charts, including:
+
+Cards for key KPIs: total tickets, percentage of positive tickets (‘Excellent’ or ‘Very Good’ reviews), average satisfaction and average days to resolution.
+Line graphs to see the monthly evolution of tickets.
+Bar charts to classify tickets by support category (system, access/login, software, hardware).
+Column charts to analyse the days of ticket resolution.
+Donut graph to show the proportion of feedback on each agent's service.
+
+In addition, I added filters by year, month and support agent, allowing a detailed analysis of the performance of each agent in a specific period.
+
+4) Results and Conclusions
+With the transformed and visualised data, significant insights can be extracted on Agent performance, identifying areas with higher support demand, response times and satisfaction levels. These insights allow informed recommendations to be made to optimise support management in the company.
 
 ## 📸 Screenshots
-![Dashboard Overview](images/dashboard-overview.png)
+First page (first section):
 ![image](https://github.com/user-attachments/assets/d896ff2d-e4ce-4dfb-82ca-926f99d13596)
 
+First page (second section):
+![image](https://github.com/user-attachments/assets/7f7c6c14-955a-4222-a02b-e52499bbbce0)
 
-## 🌐 Try it Online
-View the interactive dashboard on [Power BI Service](https://app.powerbi.com/view-link).
+Second Page (Rankings):
+![image](https://github.com/user-attachments/assets/95d163db-6b28-4eb8-8cdc-9a38d7533c91)
 
-## 🔗 Contact
-- Email: youremail@example.com
-- LinkedIn: [YourLinkedIn](https://linkedin.com/in/yourname)
+Third Page (Categories): 
+![image](https://github.com/user-attachments/assets/b7596822-9b88-49a2-80a2-07fab673807a)
+
+# Detailed Explanation of the Project
+
+1) Data obtained, in Excel format:
+
+a) Tickets: 
+From 1 January 2016 to 31 December 2020. The Ticket data are separated by years, i.e. we have a table of Ticket data corresponding to the year 2016, another table corresponding to the year 2017, another to 2018, another to 2019, and another to 2020. The tables for each year have the same format with the same columns.
+
+Column data:
+- Ticket ID: ID of each Ticket
+- Date: creation date of the Ticket
+- Employee ID: Employee ID, relates to the employee table, as Tickets are created by employees
+- Agent ID: ID of the IT Agents, related to the Agents table, who attend to the Tickets created by the employees
+- Category: Access / Login, Hardware, Software, System
+- Type: Problem, Request.
+- Severity: 0 - Unclassified, 1 - Minor, 2 - Normal, 3 - Major, 4 - Critical
+- Priority: 0 - Unassigned, 1 - Low, 2 - Medium, 3 - High.
+- Resolution Days: days taken to resolve each Ticket.
+- Satisfaction: from 1 to 5 stars, represents the satisfaction of each Employee with the attention received from the Agents on the Tickets.
