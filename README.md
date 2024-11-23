@@ -2,6 +2,8 @@
 Resume: Tractchun is a company in the manufacturing industry with Information Technology (IT) agents who support Tickets. Information has been requested from the Human Resources department in order to perform a more in-depth analysis based on classifications of their Agents.
 
 To download the Power BI file: https://github.com/Lucas-F-Analysis/Analysis-of-Agents-in-the-Tractchun-company/raw/refs/heads/main/Tractchun%20Dashboards.pbix
+
+
 ![Vista previa del reporte]([URL_DEL_GIF](https://github.com/Lucas-F-Analysis/Analysis-of-Agents-in-the-Tractchun-company/blob/main/Tractchun%20Dashboards%20GIF.gif))
 
 # Summary
