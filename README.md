@@ -12,7 +12,7 @@ To download the Power BI file: https://github.com/Lucas-F-Analysis/Analysis-of-A
 </head>
 <body>
   <h1>Video del Proyecto</h1>
-  <video src="URL_DEL_VIDEO_EN_EL_REPOSITORIO" controls width="800"></video>
+  <video src="https://github.com/Lucas-F-Analysis/Analysis-of-Agents-in-the-Tractchun-company/raw/refs/heads/main/Tractchun%20GIF.mp4" controls width="800"></video>
 </body>
 </html>
 
