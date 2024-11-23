@@ -3,19 +3,7 @@ Resume: Tractchun is a company in the manufacturing industry with Information Te
 
 To download the Power BI file: https://github.com/Lucas-F-Analysis/Analysis-of-Agents-in-the-Tractchun-company/raw/refs/heads/main/Tractchun%20Dashboards.pbix
 
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Video del Proyecto</title>
-</head>
-<body>
-  <h1>Video del Proyecto</h1>
-  <video src="https://github.com/Lucas-F-Analysis/Analysis-of-Agents-in-the-Tractchun-company/raw/refs/heads/main/Tractchun%20GIF.mp4" controls width="800"></video>
-</body>
-</html>
-
+![Vista previa del reporte](https://github.com/Lucas-F-Analysis/Analysis-of-Agents-in-the-Tractchun-company/blob/main/Tractchun%20Dashboards%20GIF.gif)
 
 # Summary
 
