@@ -24,6 +24,7 @@ We must transform the data into actionable information for Power BI, then visual
 - **Power Query**: Data cleaning and preparation.
 
 ## 📂 Files
+# Excel DataBase:
 - **`Tractchun Analysis.pbix`**: The Power BI file containing the dashboard.
 - **`Support ticket table:`** created from the annexation of the different ticket tables from 2016 to 2020. These Tickets are requested by the company's employees. It includes feedback information on each service (classified from ‘Excellent’ to ‘Bad’), Category, Type, Severity, dates, priority, days of resolution.
 - **`Detailed information about the Employees:`** including personal data of each one of them, such as names, surname, shift, email, plant to which they belong.
