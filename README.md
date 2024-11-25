@@ -8,7 +8,7 @@ To download the Power BI file: https://github.com/Lucas-F-Analysis/Analysis-of-A
 # Summary
 
 ## 📊 Overview
-In this project, I carry out an exhaustive data analysis for the company Tractchun. Using the Power BI tool, using Power Query as the main data transformation tool. The situation involves the need to transform data from different support requests, called ‘Tickets’. These Tickets are associated to the Employees of the company that generated them, and to the IT Agents in charge of attending them.
+This project involves an in-depth analysis of the IT support team at Tractchun, a manufacturing company. Using data from ticketing systems and HR records, I created a Power BI dashboard that provides actionable insights into agent performance, ticket resolution times, and service satisfaction. The analysis is designed to optimize support operations and improve strategic decision-making.
 
 ## 🔍 Context
 Case: Tractchun is a company in the manufacturing industry that has Information Technology (IT) agents who provide ticketing support for all aspects of their office technology (systems, hardware, software, etc.).
@@ -20,7 +20,7 @@ We must transform the data into actionable information for Power BI, then visual
 
 ## 🛠️ Tools Used
 - **Power BI**: Dashboard design and data visualization.
-- **DAX**: Data modeling and calculated measures.
+- **DAX**: Data modeling and Created custom KPIs like average satisfaction and resolution times..
 - **Power Query**: Data cleaning and preparation.
 
 ## 📂 Files
@@ -62,6 +62,11 @@ In addition, I added filters by year, month and support agent, allowing a detail
 
 4) Results and Conclusions
 With the transformed and visualised data, significant insights can be extracted on Agent performance, identifying areas with higher support demand, response times and satisfaction levels. These insights allow informed recommendations to be made to optimise support management in the company.
+
+## 📈 Key Insights
+- 25% of agents handled 50% of the tickets, suggesting resource optimization opportunities.
+- Average resolution time: 4.55 days (high-priority tickets: 5 days).
+- 85% of feedback was positive (‘Very Good’ or ‘Excellent’), with areas of improvement identified in hardware support.
 
 ## 📸 Screenshots
 First page (first section):
